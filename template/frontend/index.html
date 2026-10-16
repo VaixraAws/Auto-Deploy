@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html><body style="font-family:sans-serif;max-width:600px;margin:40px auto">
+  <h2>Deployed App</h2>
+  <p id="info"></p>
+  <input id="t" placeholder="Write a note"><button onclick="add()">Add</button>
+  <ul id="list"></ul>
+<script>
+async function load(){
+  const h = await (await fetch('/api/health')).json();
+  info.textContent = 'Project: ' + h.project + ' | DB: ' + h.status;
+  const n = await (await fetch('/api/notes')).json();
+  list.innerHTML = n.map(x => '<li>' + x.text + '</li>').join('');
+}
+async function add(){
+  await fetch('/api/notes',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({text:t.value})});
+  t.value=''; load();
+}
+load();
+</script></body></html>
