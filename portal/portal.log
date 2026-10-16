@@ -1,0 +1,48 @@
+ * Tip: There are .env files present. Install python-dotenv to use them.
+ * Serving Flask app 'app'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5050
+ * Running on http://172.31.7.128:5050
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [16/Oct/2026 10:24:42] "GET / HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:13] "GET / HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+27.61.61.123 - - [16/Oct/2026 10:26:28] "POST /submit HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:31] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:35] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:38] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:41] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:44] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:47] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:50] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:53] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:56] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:26:59] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:27:02] "GET /status?queue_id=9 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:13] "POST /submit HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:16] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:19] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:20] "POST /submit HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:22] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:24] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:25] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:27] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:28] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:29] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:31] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:33] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:34] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:36] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:37] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:38] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:40] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:41] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:43] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:44] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:46] "GET /status?queue_id=11 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:47] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:51] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:54] "GET /status?queue_id=12 HTTP/1.1" 200 -
+27.61.61.123 - - [16/Oct/2026 10:34:57] "GET /status?queue_id=12 HTTP/1.1" 200 -
